@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout>
+    <!-- REPORT -->
+    <codecia_salesrepresentative_admin_adminhtml_report_index>
+        <reference name="content">
+            <block type="codecia_salesrepresentative/adminhtml_report"/>
+        </reference>
+    </codecia_salesrepresentative_admin_adminhtml_report_index>
+</layout>

@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Codecia_SalesRepresentative>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Codecia_SalesRepresentative>
+    </modules>
+</config>

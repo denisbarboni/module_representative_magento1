@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <menu>
+        <codecia_salesrepresentative module="codecia_salesrepresentative">
+            <title>Módulo Representante</title>
+            <sort_order>100</sort_order>
+            <children>
+                <report module="codecia_salesrepresentative">
+                    <title>Relatório de Representantes</title>
+                    <sort_order>1</sort_order>
+                    <action>codecia_salesrepresentative_admin/adminhtml_report/</action>
+                </report>
+            </children>
+        </codecia_salesrepresentative>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <codecia_salesrepresentative translate="title" module="codecia_salesrepresentative">
+                                        <title>Módulo Representante</title>
+                                        <sort_order>0</sort_order>
+                                    </codecia_salesrepresentative>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <codecia_salesrepresentative translate="title" module="codecia_salesrepresentative">
+                        <title>Módulo Representante</title>
+                        <sort_order>1100</sort_order>
+                        <children>
+                            <report module="codecia_salesrepresentative">
+                                <title>Relatório de Representantes</title>
+                                <sort_order>1130</sort_order>
+                            </report>
+                        </children>
+                    </codecia_salesrepresentative>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
+
